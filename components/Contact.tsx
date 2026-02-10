@@ -211,7 +211,7 @@ const Contact: React.FC = () => {
         </div>
 
         {/* Map Section - Full Width Bottom */}
-        <div className="mt-20 rounded-3xl overflow-hidden border border-white/10 h-[400px] relative group">
+        <div className="mt-20 rounded-3xl overflow-hidden border border-white/10 h-[260px] sm:h-[320px] md:h-[400px] relative group">
              {/* Map Filter Overlay to make it dark */}
              <div className="absolute inset-0 bg-gray-900/40 mix-blend-multiply z-10 pointer-events-none"></div>
              
@@ -229,7 +229,7 @@ const Contact: React.FC = () => {
              ></iframe>
 
              {/* Custom Location Pin Card */}
-             <div className="absolute bottom-6 left-6 z-20 bg-black/80 backdrop-blur-md p-4 rounded-xl border border-white/10 flex items-center gap-4 shadow-2xl animate-fade-in-up">
+             <div className="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 z-20 bg-black/80 backdrop-blur-md p-4 rounded-xl border border-white/10 flex items-center gap-4 shadow-2xl animate-fade-in-up">
                 <div className="bg-gray-800 p-3 rounded-lg text-white shadow-[0_0_15px_rgba(255,255,255,0.1)] animate-pulse">
                     <Globe size={24} />
                 </div>
